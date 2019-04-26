@@ -4,6 +4,22 @@ import java.util.List;
 
 import lombok.Data;
 
+
+/* Route plan consists of Simple Routes and total distance value
+ * 
+ * "route": [
+    {
+      "from": 1,
+      "to": 2,
+      "distance": 10
+    },
+    .
+    .
+    .
+  ],
+  "total_distance": 100.1
+ */
+
 @Data
 public class RoutePlan {
 	private List<SimpleRoute> simpleRouteList;

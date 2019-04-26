@@ -2,6 +2,15 @@ package com.saadow.cryptonitetest.model;
 
 import lombok.Data;
 
+/* Simple Route to be a part of Route Plan
+ * Consists of Location id numbers and distance between two Locations
+ * {
+      "from": 1,
+      "to": 2,
+      "distance": 10
+    }
+ */
+
 @Data
 public class SimpleRoute {
 	int fromId;
